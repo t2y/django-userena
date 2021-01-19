@@ -14,9 +14,11 @@ except IOError:
     sys.exit(1)
 
 install_requires = [
-    'easy_thumbnails',
+    'easy_thumbnails<=2.3',
     'django-guardian<=1.4.1',
-    'html2text==2014.12.29'
+    'html2text==2014.12.29',
+    # add dependencies to be able to run testing
+    'Pillow<=3.1.0',
 ]
 
 try:

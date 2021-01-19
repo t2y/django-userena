@@ -23,6 +23,12 @@ env:
   - TOX_ENV=py35-django18
   - TOX_ENV=py35-django19
 
+  - TOX_ENV=py36-django18
+  - TOX_ENV=py36-django19
+
+  - TOX_ENV=py37-django18
+  - TOX_ENV=py37-django19
+
   - TOX_ENV=coverage
 install:
   - pip install -U tox pip

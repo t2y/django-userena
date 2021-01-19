@@ -17,3 +17,7 @@ Complete documentation about the
 [Read the Docs](http://docs.django-userena.org/en/latest/index.html).
 
 For list of updates and changes see `UPDATES.md` file.
+
+# Section
+
+update
